@@ -1,3 +1,5 @@
+// Authors: Khloe Wright & Maize Booker
+
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,7 +17,6 @@ char delimiters[] = " \t\r\n";
 extern char **environ;
 pid_t pid;
 pid_t child;
-
 
 int main() {
     // Stores the string typed into the command line.
